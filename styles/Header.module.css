@@ -1,0 +1,109 @@
+
+.header h1 {
+    color: var(--secondary);
+    text-shadow: 2px 0 0 var(--white), -2px 0 0 var(--white), 0 2px 0 var(--white), 0 -2px 0 var(--white),
+                 1px 0.4rem var(--white), -1px -1px 0 var(--white), 1px -1px 0 var(--white), -1px 1px 0 var(--white);
+    margin-top: 4vh;
+    font-size: 8vw;
+    letter-spacing: 0.8vw;   
+}
+.header span {
+    text-shadow: none;
+    display: block;
+    letter-spacing: 0.2vw;
+    margin-left: 14vw; 
+    font-size: 22%;
+    color: var(--white);
+}
+
+.herbs {
+    margin-top: 13%;
+}
+@media(min-width: 768px) {
+    .herbs {
+        margin-top: 9%;
+    }
+}
+.cup {
+    margin-top: 8%;
+}
+@media(min-width: 768px) {
+    .cup {
+        margin-top: 4%;
+    }
+}
+
+.main {
+    display:flex;
+}
+
+.bar {
+    justify-content: center;
+    text-decoration: none;
+    padding: 1vh;
+}
+.bar h1:hover {
+    cursor: pointer;
+}
+.nav {
+    border-radius: 2rem;
+    margin-top: -2vh;
+    text-decoration: none;
+    background-color: var(--cream);
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.nav a {
+    color: var(--primary);
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-left: 2.1vw;
+}
+.nav a:last-of-type {
+    margin-right: 2.1vw;
+}
+.nav a:hover {
+    color: var(--white);
+    background-color: var(--yellow);
+    padding: 0 0.5rem;
+    border-radius: 1.5rem;
+}
+@media(max-width: 1280px) {
+    .nav a {
+        font-size: 2rem;
+    }
+}
+@media(max-width: 992px) {
+    .nav a {
+        font-size: 1.4rem;
+    }
+}
+@media(max-width: 768px) {
+    .nav {
+        padding: 1rem;
+    }
+    .nav a {
+        font-size: 0.8rem;
+    }
+    .nav a:hover {
+        padding: 0 .2rem;
+    }
+}
+@media(max-width: 480px) {
+    
+    .nav a {
+        font-size: 0.7rem;
+        margin-left: 1.5vw;
+    }
+    .nav a:last-of-type {
+        margin-right: 1.5vw;
+    }
+    .nav a:hover {
+        padding: 0 0.25rem;
+    }
+    
+}
+
+

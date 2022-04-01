@@ -1,0 +1,43 @@
+:root {
+  --primary: #4b5846;
+  --secondary: #7A7D68;
+  --black: #353739;
+  --cream: #E4DED2;
+  --yellow: #F7C050;
+  --white: #F4F4F4;
+  --fuente-principal: 'Myriad Pro', sans-serif;
+}
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  background-color: #4b5846;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  font-size: 2rem;
+  font-family: var(--fuente-principal);
+  line-height: 1.5;
+}
+img {
+  max-width: 100%;
+}
+p {
+  font-size: 1.2vw;
+  color: var(--black);
+  letter-spacing: 0.08vw;
+}
+
+[class*="container"] {
+  /* max-width: 120rem; */
+  margin: 0 auto;
+  /* width: 95%; */
+}
+[class*="heading"] {
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 900;
+  color: var(--primary);
+  margin: 5rem 0;
+}
