@@ -1,0 +1,129 @@
+.content {
+    position: absolute;
+}
+
+.title {
+    background-image: url(../public/img/history.webp);
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+.title h1 {
+    position: absolute;
+    margin: 0 20%;
+    top: 10%;
+    width: 50%;
+    color: var(--textBold);
+    font-weight: 700;
+    font-size: 7vmin;
+    text-shadow: 2px 2px 1px var(--black);
+}
+
+.next {
+    display: flex;
+    justify-content: center;
+    padding-top: 88vh;
+}
+
+
+@media (max-width: 1280px) {
+    .title h1 {
+        margin: 0 10%;
+        top: 6%;
+        width: 60%;
+    }
+}
+@media (max-width: 850px) {
+    .title h1 {
+        font-size: 12vmin;
+    }
+}
+@media (max-width: 780px) {
+    .title h1 {
+        margin: 0 5%;
+        top: 8%;
+        width: 70%;
+        font-size: 10vmin;
+    }
+}
+@media (max-width: 480px) {
+    .title h1 {
+        top: 6%;
+        width: 80%;
+        font-size: 14vmin;
+    }
+    .next {
+        padding-top: 84vh;
+    }
+}
+
+.history {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20%;
+    color: var(--primary);
+    background-color: var(--secondary);
+}
+.history h2 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 5vmin;
+    padding-top: 2vh;
+}
+.history p {
+    margin: 2vh 3vw;
+    font-size: 3vmin;
+    line-height: 4.8vmin;
+}
+
+.goTo button {
+    color: var(--primary);
+    background-color: var(--yellow);
+    margin: 8vh 0;
+    border: none;
+    border-radius: 0.2vw;
+    padding: 1.5vh 1.5vw;
+    font-size: 2vmin;
+    font-weight: 800;
+    text-transform: uppercase;
+    transition-duration: .3s;
+}
+.goTo button:hover {
+    cursor: pointer;
+    color: var(--textBold);
+    background-color: var(--primary);
+    transition-duration: .3s;
+}
+
+@media (max-width: 1280px) {
+    .history {
+        margin: 0 10%;
+    }
+    .history h2 {
+        font-size: 8vmin;
+    }
+}
+@media (max-width: 780px) {
+    .history {
+        margin: 0 5%;
+    }
+    .goTo button {
+        font-size: 3vmin;
+        border-radius: 0.5vw;
+    }
+}
+@media (max-width: 480px) {
+    .history h2 {
+        font-size: 10vmin;
+    }
+    .history p {
+        font-size: 5vmin; 
+        line-height: 8vmin;
+    }
+    .goTo button {
+        font-size: 4vmin;
+    }
+}

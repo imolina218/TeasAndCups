@@ -1,0 +1,52 @@
+/* try bottom */
+.footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--secondaryOpa);
+    backdrop-filter: blur(4px);
+}
+
+.container {
+    padding: 1.2% 0;
+    text-align: center;
+}
+.container p {
+    color: var(--textBold);
+    font-weight: 700;
+}
+
+.nav {
+    color: var(--textBold);
+    font-weight: 700;
+    font-size: 2vmin;
+    transition-duration: .3s;
+}
+.nav a:hover {
+    cursor: pointer;
+    color: var(--yellow);
+    transition-duration: .3s;
+}
+
+@media (max-width: 1280px) {
+    .nav {
+        font-size: 2.5vmin;
+    }
+    .index {
+        gap: 1vmin;
+    }
+}
+@media (max-width: 780px) {
+    .nav {
+        flex-direction: column;
+        font-size: 3.8vmin;
+        gap: 1.5vh;
+    }
+}
+@media (max-width: 480px) {
+    .nav {
+        padding: 2vw;
+        font-size: 6vmin;
+    }
+}

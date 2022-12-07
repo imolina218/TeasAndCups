@@ -1,0 +1,93 @@
+.content {
+    position: absolute;
+    background-image: url(../public/img/index.webp);
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.aboutus {
+    position: absolute;
+    top: 20%;
+    width: 55%;
+    margin: 0 20%;
+    color: var(--textBold);
+}
+.aboutus p {
+    font-weight: 700;
+    font-size: 7vmin;
+    margin-bottom: 1.8vmin;
+    text-shadow: 2px 2px 3px black;
+}
+
+.aboutus input {
+    border: none;
+    font-family: var(--mainFont);
+    font-size: 2vmin;
+    padding: 1vmin;
+    margin-right: 1vmin;
+    border-radius: 0.5vmin;
+}
+.aboutus button {
+    border: none;
+    color: var(--textBold);
+    background-color: var(--yellow);
+    font-family: var(--mainFont);
+    font-weight: 700;
+    font-size: 2vmin;
+    padding: 1vmin;
+    border-radius: 0.5vmin;
+    transition-duration: .3s;
+}
+.aboutus button:hover {
+    cursor: pointer;
+    background-color: var(--primary);
+    transition-duration: .3s;
+}
+
+@media (max-width: 1280px) {
+    .aboutus {
+        margin: 0 10%;
+        width: 70%;
+    }
+}
+
+@media (max-width: 780px) {
+    .aboutus {
+        margin: 0 10%;
+    }
+    .aboutus p {
+        font-size: 8vmin;
+    }
+    .aboutus input,
+    .aboutus button {
+        font-size: 3.5vmin;
+        border-radius: 0.8vmin;
+    }
+}
+
+@media (max-width: 480px) {
+    .aboutus {
+        margin: 0 5%;
+        width: 90%;
+    }
+    .aboutus p {
+        font-size: 10vmin;
+    }
+    .aboutus input,
+    .aboutus button {
+        display: block;
+        padding: 1vh 1vw;
+        width: 100%;
+        font-size: 5vmin;
+        margin-bottom: 1vh;
+    }
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

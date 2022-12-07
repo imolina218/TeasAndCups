@@ -1,0 +1,130 @@
+.content {
+    position: absolute;
+}
+
+.title {
+    background-image: url(../public/img/teas.webp);
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+.title h1 {
+    position: absolute;
+    margin: 0 20%;
+    top: 13%;
+    width: 80%;
+    color: var(--textBold);
+    font-weight: 700;
+    font-size: 8vmin;
+    text-shadow: 2px 2px 1px black;
+}
+
+.next {
+    display: flex;
+    justify-content: center;
+    padding-top: 88vh;
+}
+
+@media (max-width: 1280px) {
+    .title h1 {
+        margin: 0 10%;
+        top: 12%;
+        width: 60%;
+    }
+}
+@media (max-width: 850px) {
+    .title h1 {
+        top: 10%;
+        width: 80%;
+        font-size: 12vmin;
+    }
+}
+@media (max-width: 780px) {
+    .title h1 {
+        margin: 0 5%;
+        top: 9%;
+        width: 70%;
+        font-size: 15vmin;
+    }
+}
+@media (max-width: 480px) {
+    .title h1 {
+        top: 6%;
+        width: 60%;
+        font-size: 18vmin;
+    }
+    .next {
+        padding-top: 84vh;
+    }
+}
+@media (max-width: 320px) {
+    .title h1 {
+        font-size: 16vmin;
+    }
+    .next {
+        padding-top: 78vh;
+    }
+}
+
+.teas {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20%;
+    color: var(--black);
+    background-color: var(--secondary);
+}
+.teas p {
+    margin: 4vh 0;
+    font-size: 2vmin;
+}
+.teas span {
+    font-weight: 600;
+}
+
+.teasl {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vh 2vw;
+    background: linear-gradient(270deg, rgba(244,244,244,1) 0%, 
+    rgba(228,222,210,1) 44%);
+}
+.teasr {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vh 2vw;
+    background: linear-gradient(270deg, rgba(228,222,210,1) 44%, 
+    rgba(244,244,244,1) 100%);
+}
+.teasl img,
+.teasr img {
+    height: auto;
+    width: 30vw;
+}
+
+@media (max-width: 1280px) {
+    .teas {
+        margin: 0 10%;
+    }
+    .teasl img,
+    .teasr img {
+        height: auto;
+        width: 40vw;
+    }
+}
+@media (max-width: 780px) {
+    .teas {
+        margin: 0 5%;
+    }
+    .teas p {
+        font-size: 3vmin;
+    }
+}
+@media (max-width: 480px) {
+    .teas p {
+        font-size: 4vmin;
+    }
+}

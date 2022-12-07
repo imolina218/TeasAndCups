@@ -1,0 +1,142 @@
+.content {
+    position: absolute;
+}
+
+.title {
+    background-image: url(../public/img/cups.webp);
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+.title h1 {
+    position: absolute;
+    margin: 0 20%;
+    top: 12%;
+    width: 80%;
+    color: var(--textBold);
+    font-weight: 700;
+    font-size: 8vmin;
+    text-shadow: 2px 2px 3px black;
+}
+
+.next {
+    display: flex;
+    justify-content: center;
+    padding-top: 88vh;
+}
+
+@media (max-width: 1280px) {
+    .title h1 {
+        margin: 0 10%;
+        top: 12%;
+        width: 60%;
+    }
+}
+@media (max-width: 850px) {
+    .title h1 {
+        top: 10%;
+        width: 80%;
+        font-size: 12vmin;
+    }
+}
+@media (max-width: 780px) {
+    .title h1 {
+        margin: 0 5%;
+        top: 10%;
+        width: 70%;
+        font-size: 15vmin;
+    }
+}
+@media (max-width: 480px) {
+    .title h1 {
+        top: 7%;
+        width: 50%;
+        font-size: 18vmin;
+    }
+    .next {
+        padding-top: 84vh;
+    }
+}
+@media (max-width: 320px) {
+    .title h1 {
+        top: 6%;
+        font-size: 16vmin;
+        width: 40%;
+    }
+    .next {
+        padding-top: 78vh;
+    }
+}
+
+.cups {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20%;
+    color: var(--black);
+    background-color: var(--secondary);
+}
+.cups p {
+    margin: 4vh 0;
+    font-size: 1.5vw;
+}
+.cups span {
+    font-weight: 600;
+}
+.cups h3 {
+    font-size: 3vmin;
+}
+
+
+.cupsl {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vh 2vw;
+    background: linear-gradient(270deg, rgba(244,244,244,1) 0%, 
+    rgba(228,222,210,1) 44%);
+}
+.cupsr {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vh 2vw;
+    background: linear-gradient(270deg, rgba(228,222,210,1) 44%, 
+    rgba(244,244,244,1) 100%);
+}
+.cupsl img,
+.cupsr img {
+    height: auto;
+    width: 30vw;
+}
+
+@media (max-width: 1280px) {
+    .cups {
+        margin: 0 10%;
+    }
+    .cups p {
+        font-size: 3vmin;
+    }
+    .cupsl img,
+    .cupsr img {
+        height: auto;
+        width: 40vw;
+    }   
+}
+@media (max-width: 780px) {
+    .cups {
+        margin: 0 5%;
+    }
+    .cups h3 {
+        font-size: 4vmin;
+    }
+}
+@media (max-width: 480px) {
+    .cups h3 {
+        font-size: 5vmin;
+    }
+    .cups p {
+        font-size: 4.5vmin;
+    }
+}
