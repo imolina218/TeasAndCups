@@ -34,12 +34,12 @@ const History = () => {
             that tea became firmly established as the national drink of China. 
             It became such a favourite that during the late eighth century a 
             writer called Lu Yu wrote the first book entirely about tea, the 
-            Ch`&apos;`a Ching, or Tea Classic. It was shortly after this that tea was 
+            Ch&apos;a Ching, or Tea Classic. It was shortly after this that tea was 
             first introduced to Japan, by Japanese Buddhist monks who had 
             travelled to China to study. 
             <br /><br />Tea drinking has become a vital part 
             of Japanese culture, as seen in the development of the Tea Ceremony, 
-            which may be rooted in the rituals described in the Ch`&apos;`a Ching.
+            which may be rooted in the rituals described in the Ch&apos;a Ching.
           </p>
           <br />
           <p>
@@ -50,7 +50,7 @@ const History = () => {
             many tea-drinkers to imagine life without them. 
             <br /><br />Such is the British 
             enthusiasm for tea that even after the dismantling of the Empire, 
-            British companies continue to play a leading role in the world`&apos;`s 
+            British companies continue to play a leading role in the world&apos;s 
             tea trade and British brands dominate the world market. With recent 
             scientific research indicating that tea drinking may have direct 
             health benefits, it is assured that for centuries to come there 
