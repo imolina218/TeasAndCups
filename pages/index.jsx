@@ -1,6 +1,7 @@
 import Layout from '../components/Layout'
 import styles from "../styles/Index.module.css"
 import Footer from "../components/Footer"
+import Form from '../components/Form'
 
 export default function Home() {
   return (
@@ -13,11 +14,11 @@ export default function Home() {
             We focus on providing content to tea lovers that are 
             interested in learning more about this amazing world.
           </p>
-          <form action=''>
-            <input type='text' placeholder='Enter your email address'/>
-            <button type='submit'>Get Started</button>
-          </form>
+
+          <Form/>
         </div>
+
+
         {/* <div className={styles.footer}>
           <Footer /> 
         </div> */}

@@ -22,7 +22,16 @@
     text-shadow: 2px 2px 3px black;
 }
 
-.aboutus input {
+.form p {
+    color: var(--textBold);
+    width: 40%;
+    font-family: var(--mainFont);
+    font-weight: 700;
+    margin: 0;
+    font-size: 3vmin;
+    border-radius: 0.5vmin;
+}
+.form input {
     border: none;
     font-family: var(--mainFont);
     font-size: 2vmin;
@@ -30,7 +39,7 @@
     margin-right: 1vmin;
     border-radius: 0.5vmin;
 }
-.aboutus button {
+.form button {
     border: none;
     color: var(--textBold);
     background-color: var(--yellow);
@@ -41,7 +50,7 @@
     border-radius: 0.5vmin;
     transition-duration: .3s;
 }
-.aboutus button:hover {
+.form button:hover {
     cursor: pointer;
     background-color: var(--primary);
     transition-duration: .3s;
@@ -61,8 +70,12 @@
     .aboutus p {
         font-size: 8vmin;
     }
-    .aboutus input,
-    .aboutus button {
+    .form p {
+        width: 100%;
+        font-size: 4vmin;
+    }
+    .form input,
+    .form button {
         font-size: 3.5vmin;
         border-radius: 0.8vmin;
     }
@@ -76,8 +89,12 @@
     .aboutus p {
         font-size: 10vmin;
     }
-    .aboutus input,
-    .aboutus button {
+    .form p {
+        width: 100%;
+        font-size: 6vmin;
+    }
+    .form input,
+    .form button {
         display: block;
         padding: 1vh 1vw;
         width: 100%;
